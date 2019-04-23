@@ -9,6 +9,7 @@
       'target_name': 'better_sqlite3',
       'dependencies': ['deps/sqlite3.gyp:sqlite3'],
       'sources': ['src/better_sqlite3.cpp'],
+      'msbuild_toolset': '',
       'cflags': [
         '-std=c++11',
       ],
